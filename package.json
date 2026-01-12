@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/GavinXZhang/untitled-folder/issues"
   },
-  "homepage": "https://github.com/GavinXZhang/untitled-folder#readme"
+  "homepage": "https://github.com/GavinXZhang/untitled-folder#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
 }
