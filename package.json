@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-     "build": "parcel build index.html",
-"prebuild": "rm -rf dist",
-"start": "parcel index.html",  
+    "build": "parcel build index.html",
+    "prebuild": "rm -rf dist",
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/GavinXZhang/untitled-folder#readme",
   "devDependencies": {
-    "parcel": "^2.16.3"
+    "@parcel/transformer-svg-react": "^2.16.3",
+    "parcel": "^2.16.3",
+    "svgo": "^3.3.2"
   }
 }
